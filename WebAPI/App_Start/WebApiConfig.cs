@@ -16,7 +16,7 @@ namespace WebAPI
               
             //enable cors
             //config.EnableCors(new EnableCorsAttribute("*", "*", "*"));
-            config.EnableCors(new EnableCorsAttribute("http://localhost:4200", headers: "*", methods: "*"));
+            config.EnableCors(new EnableCorsAttribute("https://localhost:4200", headers: "*", methods: "*"));
             // Web API configuration and services
 
             // Web API routes
